@@ -1,7 +1,7 @@
 Puppet
 ======
 
-A standalone puppet deployment.
+A standalone puppet deployment with hiera.
 
 Notes
 -----
