@@ -10,7 +10,7 @@ fi
 cd /etc/puppet
 
 if [ ! -d modules ]; then
-  yum -y -q install ruby-devel
+  puppet apply /etc/puppet/init.pp
   gem install bundler --no-ri --no-rdoc
   bundle install
 else
