@@ -2,3 +2,4 @@ Puppetfile.lock
 Gemfile.lock
 modules/
 ssl/
+*~
