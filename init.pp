@@ -13,7 +13,7 @@ node default {
       }
     }
     'CentOS', 'RedHat': {
-      $dependencies = [ 'redhat-lsb', 'ruby-devel' ]
+      $dependencies = [ 'redhat-lsb', 'ruby-devel', 'rubygem-bundler' ]
 
       package { $dependencies:
         ensure   => 'latest'
